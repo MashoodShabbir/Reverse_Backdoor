@@ -73,5 +73,5 @@ class Listener:
             print("\nClosing listener.")
             self.connection.close()
 
-my_listener = Listener("0.0.0.0", 4444)
+my_listener = Listener("0.0.0.0", [PORT])
 my_listener.run()
